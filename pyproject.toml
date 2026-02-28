@@ -23,5 +23,6 @@ dev = [
     "pytest>=9.0.2",
     "ruff",
     "maturin",
-    "ty"
+    "ty",
+    "mdformat"
 ]

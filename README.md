@@ -6,12 +6,12 @@ This project implements a simplified Brayton-cycle turbojet model under static s
 
 The focus of this repository is:
 
-- Clear separation between domain logic and Python bindings  
-- Deterministic, testable modelling code  
-- Incremental development towards uncertainty propagation and parallel Monte Carlo  
-- Reproducible packaging using maturin and uv  
+- Clear separation between domain logic and Python bindings
+- Deterministic, testable modelling code
+- Incremental development towards uncertainty propagation and parallel Monte Carlo
+- Reproducible packaging using maturin and uv
 
----
+______________________________________________________________________
 
 ## Development Setup
 
@@ -58,7 +58,9 @@ print(ve, thrust)
 ```
 
 ### Scope and Limitations
+
 This model:
+
 - Assumes static sea-level ambient conditions
 - Uses ideal-gas relations with constant γ and cp
 - Does not include choking analysis
